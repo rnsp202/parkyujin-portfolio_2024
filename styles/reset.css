@@ -1,0 +1,35 @@
+/* HTML 초기화 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+* {box-sizing:border-box;}
+body,html,
+h1,h2,h3,h4,h5,h6, fieldset,input,button,select,textarea,
+p,ul,ol,li,dl,dt,dd,table,tr,td,th,thead,tbody,tfoot,
+div,header,nav,aside,article,section,footer,figure,
+address,blockquote,video,iframe,hr,
+span,em,strong,q,sub,sup,details,figcaption,summary,time,s,del,code,mark,img {
+    font-family: 'Noto Sans KR', sans-serif;/* 가장 근접한 글꼴 */
+    font-size: 1.0em; font-weight: normal;
+    font-style: normal;
+    line-height: 1.0; margin: 0; padding: 0;
+}
+/* 스크롤바 꾸미기 */
+body::-webkit-scrollbar {
+    background: #333;
+    width: 2px; height: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(185, 183, 255);
+}
+
+a {color: #000; text-decoration: none;}
+ul,ol,li {list-style: none;}
+table,tr,td,th {border-collapse: collapse;}
+th {text-align: left;}
+fieldset {border: 0;}
+.skip {display: none;}
+input, button , label {cursor: pointer;}
+/* font-awesome 전용 속성 값 */
+.fa {
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brnads', 'Font Awesome 5 solid';
+}
